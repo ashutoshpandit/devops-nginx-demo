@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josh Batch-10</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      max-width: 800px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #666;
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    .highlight {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #764ba2;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      background: #f7f8fc;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+
+    .feature-item {
+      margin: 10px 0;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .update-box {
+      margin-top: 30px;
+      padding: 15px;
+      border-left: 5px solid #667eea;
+      background: #eef1ff;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #333;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Hello Dosto 👋</h1>
+    <h2>Aapka swagat hai <strong>Josh Batch-10</strong> me</h2>
+
+    <div class="highlight">
+      🚀 Boom!!! This is a Feature
+    </div>
+
+    <div class="features">
+      <div class="feature-item">✅ Good Feature</div>
+      <div class="feature-item">🔧 We have now fixed the issue</div>
+    </div>
+
+    <div class="update-box">
+      📌 This is my change from <strong>dev branch</strong>
+    </div>
+  </div>
+
+</body>
+</html>
